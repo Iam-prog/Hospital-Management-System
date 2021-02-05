@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AvailableTestController">
+    <children>
+      <AnchorPane layoutX="2.0" layoutY="1.0" prefHeight="106.0" prefWidth="643.0">
+         <children>
+            <Label layoutX="171.0" layoutY="27.0" text="Available Test" textFill="#ab3131">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="4.0" layoutY="118.0" prefHeight="332.0" prefWidth="643.0" stylesheets="@grey_theme.css">
+         <children>
+                <Button layoutX="277.0" layoutY="234.0" mnemonicParsing="false" onAction="#home" text="Home" />
+            <HBox prefHeight="170.0" prefWidth="624.0" spacing="80.0">
+               <children>
+                  <Button layoutX="88.0" layoutY="10.0" mnemonicParsing="false" onAction="#DiagnosisInformation" prefHeight="150.0" prefWidth="200.0" text="Diagnosis Information">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="60.0" layoutY="20.0" mnemonicParsing="false" onAction="#SurgaeryInformation" prefHeight="150.0" prefWidth="200.0" text="Surgaery Information">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="50.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>
