@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AdminController">
+    <children>
+        <AnchorPane layoutX="1.0" prefHeight="85.0" prefWidth="650.0">
+            <children>
+                <Label layoutX="263.0" layoutY="16.0" text="Admin">
+                    <font>
+                        <Font name="System Bold" size="36.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+      <Label fx:id="regMessLabel" layoutX="959.0" layoutY="422.0" />
+      <AnchorPane layoutX="1.0" layoutY="125.0" prefHeight="522.0" prefWidth="650.0" stylesheets="@grey_theme.css">
+         <children>
+            <Button layoutX="61.0" layoutY="279.0" mnemonicParsing="false" onAction="#pat" prefHeight="150.0" prefWidth="150.0" text="Patient " textFill="#9e1616" />
+            <Button layoutX="388.0" layoutY="72.0" mnemonicParsing="false" onAction="#emp" prefHeight="150.0" prefWidth="150.0" text="Employee" textFill="#9e1616">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="450.0" layoutY="429.0" mnemonicParsing="false" onAction="#home" text="Home" />
+            <Button layoutX="61.0" layoutY="72.0" mnemonicParsing="false" onAction="#doc" prefHeight="150.0" prefWidth="150.0" text="Doctor " textFill="#9e1616">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>

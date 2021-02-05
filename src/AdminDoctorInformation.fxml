@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="1095.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AdminDoctorInformationController">
+    <children>
+        <AnchorPane layoutX="14.0" prefHeight="100.0" prefWidth="1066.0">
+            <children>
+                <Label layoutX="358.0" layoutY="24.0" text="Doctor Information">
+                    <font>
+                        <Font name="System Bold" size="36.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <TableView fx:id="tableView" editable="true" layoutX="10.0" layoutY="105.0" prefHeight="400.0" prefWidth="1077.0" tableMenuButtonVisible="true">
+            <columns>
+                <TableColumn fx:id="id" prefWidth="75.0" text="Id" />
+                <TableColumn fx:id="name" prefWidth="131.0" text="Name" />
+                <TableColumn fx:id="email" prefWidth="117.0" text="Email" />
+                <TableColumn fx:id="address" prefWidth="141.0" text="Address" />
+                <TableColumn fx:id="bg" prefWidth="115.0" text="Blood Group" />
+                <TableColumn fx:id="dob" prefWidth="135.0" text="Date Of Birth" />
+            <TableColumn fx:id="age" prefWidth="60.0" text="Age" />
+            <TableColumn fx:id="un" prefWidth="116.0" text="User Name" />
+            <TableColumn fx:id="des" prefWidth="133.0" text="Designation" />
+            </columns>
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding>
+        </TableView>
+        <HBox layoutX="28.0" layoutY="508.0" prefHeight="60.0" prefWidth="1025.0" spacing="250.0">
+            <children>
+                <Button layoutX="88.0" layoutY="10.0" mnemonicParsing="false" onAction="#load" text="Load From Database" />
+                <Button mnemonicParsing="false" onAction="#goback" text="Go Back" />
+            <Button layoutX="748.0" layoutY="20.0" mnemonicParsing="false" onAction="#home" text="Home" />
+            </children>
+            <padding>
+                <Insets bottom="10.0" left="100.0" right="10.0" top="10.0" />
+            </padding>
+        </HBox>
+    </children>
+</AnchorPane>

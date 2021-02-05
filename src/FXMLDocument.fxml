@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+    <children>
+        <AnchorPane focusTraversable="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Label layoutX="288.0" layoutY="35.0" text="Hospital" textFill="#9e1616">
+                    <font>
+                        <Font name="System Bold" size="30.0" />
+                    </font>
+                </Label>
+                <HBox layoutX="11.0" layoutY="128.0" spacing="30.0">
+                    <children>
+                  <Button mnemonicParsing="false" onAction="#admin" prefHeight="150.0" prefWidth="150.0" text="Admin" textFill="#9e1616">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Button>
+                        <Button mnemonicParsing="false" onAction="#handleButtonActionDoctor" prefHeight="150.0" prefWidth="150.0" text="Doctor" textFill="#9e1616">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#handleButtonActionPatient" prefHeight="150.0" prefWidth="150.0" text="Patient" textFill="#9e1616">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#handleButtonActionEmployee" prefHeight="150.0" prefWidth="150.0" text="Employee" textFill="#9e1616">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Button>
+                    </children>
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </padding>
+                </HBox>
+                <HBox layoutX="14.0" layoutY="329.0" spacing="30.0">
+                    <children>
+                        <Button mnemonicParsing="false" onAction="#admission" prefHeight="150.0" prefWidth="150.0" text="Admission" textFill="#9e1616">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Button>
+                  <Button layoutX="200.0" layoutY="20.0" mnemonicParsing="false" onAction="#roomInfo" prefHeight="150.0" prefWidth="150.0" text="Room Information" textFill="#9e1616">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#medicineStore" prefHeight="150.0" prefWidth="150.0" text="Medicine Store" textFill="#9e1616" />
+                  <Button layoutX="380.0" layoutY="20.0" mnemonicParsing="false" onAction="#AvailableTest" prefHeight="150.0" prefWidth="150.0" text="Available Test" textFill="#9e1616" />
+                    </children>
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </padding>
+                </HBox>
+            <HBox layoutX="12.0" layoutY="526.0" spacing="30.0">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            </children>
+            <effect>
+                <DropShadow color="#9e1616" />
+            </effect>
+            <opaqueInsets>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </opaqueInsets>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+        </AnchorPane>
+    </children>
+</AnchorPane>
