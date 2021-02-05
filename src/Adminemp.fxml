@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="569.0" prefWidth="614.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AdminempController">
+    <children>
+        <AnchorPane layoutX="1.0" prefHeight="85.0" prefWidth="614.0">
+            <children>
+                <Label layoutX="73.0" layoutY="16.0" text="Admin Employee Controller">
+                    <font>
+                        <Font name="System Bold" size="36.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+      <AnchorPane layoutX="7.0" layoutY="148.0" prefHeight="416.0" prefWidth="598.0" stylesheets="@grey_theme.css">
+         <children>
+            <Button layoutX="125.0" layoutY="318.0" mnemonicParsing="false" onAction="#goback" text="Go Back" />
+              <Button layoutX="344.0" layoutY="318.0" mnemonicParsing="false" onAction="#home" text="Home" />
+              <Button layoutX="335.0" layoutY="42.0" mnemonicParsing="false" onAction="#empIn" prefHeight="150.0" prefWidth="230.0" text="Employee Information" textFill="#9e1616">
+                  <font>
+                      <Font size="16.0" />
+                  </font>
+              </Button>
+              <Button layoutX="29.0" layoutY="42.0" mnemonicParsing="false" onAction="#empwor" prefHeight="150.0" prefWidth="230.0" text="Assign Employee As Worker" textFill="#9e1616">
+                  <font>
+                      <Font size="14.0" />
+                  </font>
+              </Button>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>
